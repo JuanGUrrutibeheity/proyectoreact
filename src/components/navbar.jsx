@@ -1,6 +1,10 @@
 import { Appbar } from "@material-ui/core";
+import 'bootstrap/dist/css/bootstrap.min.css';
 const NavBar = () => {
     return (
+        /**<div className="navbar">
+            <button type="button" className="btn btn-primary">Primary</button>
+        </div>**/
         <Appbar position='fixed'>
         <Wrapper>
         <left>
@@ -20,3 +24,4 @@ const NavBar = () => {
         </Appbar>
     )
 }
+export default Navbar;

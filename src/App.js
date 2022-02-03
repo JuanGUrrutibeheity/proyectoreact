@@ -1,13 +1,14 @@
 import './App.css';
-import Navbar from './components/Navbar';
+import {Curso} from './Curso';
 
-function App() {
+const App = () => {
   return (
   <>
-  <Navbar />
-  
-  
-  
+  <div className='App'>
+  Hola Coders!
+  </div>
+  <Curso curso="React Js" profesor="Leo Messi" duracion="9"></Curso>
+  <Curso curso="Javascript" profesor="Diego Maradona" duracion="7"></Curso>
   </>
   
   );
