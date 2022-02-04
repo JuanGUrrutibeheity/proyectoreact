@@ -2,9 +2,9 @@ import { Appbar } from "@material-ui/core";
 import 'bootstrap/dist/css/bootstrap.min.css';
 const NavBar = () => {
     return (
-        /**<div className="navbar">
-            <button type="button" className="btn btn-primary">Primary</button>
-        </div>**/
+        <div className="navbar">
+        <button type="button" className="btn btn-primary">Primary</button>
+        </div>>
         <Appbar position='fixed'>
         <Wrapper>
         <left>
@@ -19,7 +19,7 @@ const NavBar = () => {
         <menuitem>QUIENES SOMOS</menuitem>
         </center>
         <right>
-        <menuitem>INICIO SESION.</menuitem>
+        <menuitem>INICIO SESION</menuitem>
         <menuitem>REGISTRARSE</menuitem>
         <menuitem><CartWidget /></menuitem>
         </right>
