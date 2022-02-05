@@ -1,5 +1,6 @@
 import ItemListContainer from "../components/ItemListContainer"
 import CartWidget from "./components/CartWidget"; 
+import Navbar from "./components/navbar/navbar";
 const Home = () => {
     return (
         <div>
