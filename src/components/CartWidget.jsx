@@ -8,3 +8,5 @@ const CartWidget = () => {
     </BsCartFill>
     )
 }
+
+export default CartWidget

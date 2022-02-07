@@ -1,8 +1,7 @@
-import { Appbar } from "@material-ui/core";
+import   Appbar from "@material-ui/core";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import CartWidget from "./components/CartWidget";
+import CartWidget from "./CartWidget";
 import ItemListContainer from "./ItemListContainer";
-import Navbar from "./components/navbar/navbar";
 function Navbar() {
     return (
     <div>
@@ -32,3 +31,5 @@ function Navbar() {
     );
 }
 export default Navbar;
+
+
