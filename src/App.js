@@ -1,6 +1,6 @@
 import './App.css';
-import {Curso} from './Curso';
 import Navbar from './components/navbar';
+import ItemListContainer from './components/ItemListContainer';
 
 function App() {
   return (
@@ -9,9 +9,10 @@ function App() {
         Hola Coders!
       </div>
       <Navbar />
-      <Curso curso="React Js" profesor="Leo Messi" duracion="9"></Curso>
-      <Curso curso="Javascript" profesor="Diego Maradona" duracion="7"></Curso>
+
+      <ItemListContainer />
     </>
+
 
   );
 }

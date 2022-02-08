@@ -1,11 +1,10 @@
-import { BsCartFill } from "react-icons/bs";
-import { ShoppingCartOutlined} from "@material-ui/icons";
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
 const CartWidget = () => {
     return (
-    <BsCartFill bscartfillContent={5} color="secondary">
+    <ShoppingCartOutlinedIcon bscartfillContent={4} color="secondary">
         <ShoppingCartOutlined />
-    </BsCartFill>
+    </ShoppingCartOutlinedIcon>
     )
 }
 
