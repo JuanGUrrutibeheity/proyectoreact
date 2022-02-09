@@ -2,7 +2,7 @@ import { Wrapper } from './styledComponents';
 
 const ItemListContainer = ({greeting}) => {
     return (
-        <Wrapper>{greeting}</Wrapper>
+        <h1>{greeting}</h1>
     );
 }
 
