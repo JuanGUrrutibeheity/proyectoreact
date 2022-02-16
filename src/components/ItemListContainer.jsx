@@ -1,4 +1,3 @@
-import { Wrapper } from './styledComponents';
 
 const ItemListContainer = ({greeting}) => {
     return (

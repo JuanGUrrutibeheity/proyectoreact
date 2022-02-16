@@ -1,20 +1,23 @@
-import './App.css';
+import './App.css'
+import ItemCount from './components/ItemCount';
 import Navbar from './components/navbar';
-import ItemListContainer from './components/ItemListContainer';
 
-function App() {
+
+
+const App = () => {
   return (
     <>
-      <div className='App'>
-        Hola Coders!
-      </div>
-      <Navbar />
+    <Navbar />
+    {
 
-      <ItemListContainer greeting={CODERHOUSE}/>
+    <ItemCount/>
+
+    }
     </>
 
 
   );
 }
+
 
 export default App;
